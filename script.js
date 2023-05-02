@@ -13,6 +13,7 @@ function validateButton() {
         return false;
     } else if(x ==='ssasi@gainsight.com' || x==='name@gmail.com' || x==='xyz@gmail.com'){
         alert("Valid User!");
+        location.href="page1.html";
         //passing user and account objects:
         aptrinsic("identify",
           {
@@ -28,7 +29,7 @@ function validateButton() {
             "name":"Gainsight PX",
             "Program": "Training" // flat custom attributes
          });
-        location.href="page1.html";
+        
 
     }else if (y === "" || y === null) {
         alert("Enter Valid Password");
