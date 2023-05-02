@@ -18,9 +18,9 @@ function validateButton() {
         aptrinsic("identify",
           {
           //User Fields
-            "id": 1, // Required for logged in app users
+            "id": x, // Required for logged in app users
             "email": x,
-            "firstName": x.substring(0, x.indexOf("@"));
+            "firstName": x.substring(0, x.indexOf("@")),
             "lastName": "Test",
           },
           {
