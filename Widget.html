@@ -35,6 +35,31 @@
           <div id="mydivheader3">Click this Box 3 to Drag</div>
          
         </div>
+      
+      <script>
+          $( function() {
+              $( "#mydiv1").draggable({
+                  stop : function r() {aptrinsic('track','dragevent',{"name":"Orange Drag", "color" : 'Orange'});}
+                  
+              })
+            } );
+      
+            $( function() {
+              $( "#mydiv2").draggable({
+                  stop : function r() {aptrinsic('track','dragevent',{"name":"Green Drag", "color" : 'Green'});}
+                  
+              })
+            } );
+      
+            $( function() {
+              $( "#mydiv3").draggable({
+                  stop : function r() {aptrinsic('track','dragevent',{"name":"Blue Drag", "color" : 'Blue'});}
+                  
+              })
+            } );
+      
+          </script>
+      
         <script src="script.js"></script>
         <br><br><br>
         <footer>
